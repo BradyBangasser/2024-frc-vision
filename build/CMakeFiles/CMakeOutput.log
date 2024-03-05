@@ -1,0 +1,1097 @@
+The system is: Linux - 6.1.0-18-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/aarch64-bullseye-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/aarch64-bullseye-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-KQodkF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdca0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdca0.dir/build.make CMakeFiles/cmTC_cdca0.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-KQodkF'
+Building C object CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o
+/usr/bin/aarch64-bullseye-linux-gnu-gcc   -v -o CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-gcc
+Target: aarch64-linux-gnu
+Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c,c++
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/cc1 -quiet -v -imultiarch aarch64-linux-gnu -iprefix /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/ -isysroot /usr/bin/../aarch64-linux-gnu/sysroot /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc90GkLl.s
+GNU C17 (GCC) version 10.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"
+ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (GCC) version 10.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cf5536070f0200ecd3f0023d65e3465c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o /tmp/cc90GkLl.s
+GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_cdca0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdca0.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-gcc  -v CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -o cmTC_cdca0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c,c++
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdca0' '-mlittle-endian' '-mabi=lp64'
+ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Ik9CA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/bin/../aarch64-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_cdca0 /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdca0' '-mlittle-endian' '-mabi=lp64'
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-KQodkF'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed;/usr/aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-bullseye-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-KQodkF]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdca0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdca0.dir/build.make CMakeFiles/cmTC_cdca0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-KQodkF']
+  ignore line: [Building C object CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/aarch64-bullseye-linux-gnu-gcc   -v -o CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-gcc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/cc1 -quiet -v -imultiarch aarch64-linux-gnu -iprefix /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/ -isysroot /usr/bin/../aarch64-linux-gnu/sysroot /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc90GkLl.s]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cf5536070f0200ecd3f0023d65e3465c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o /tmp/cc90GkLl.s]
+  ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_cdca0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdca0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/aarch64-bullseye-linux-gnu-gcc  -v CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -o cmTC_cdca0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdca0' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Ik9CA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/bin/../aarch64-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_cdca0 /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+    arg [/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1Ik9CA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/usr/bin/../aarch64-linux-gnu/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cdca0] ==> ignore
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_cdca0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib] ==> [/usr/aarch64-linux-gnu/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib] ==> [/usr/aarch64-linux-gnu/sysroot/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib] ==> [/usr/aarch64-linux-gnu/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib] ==> [/usr/aarch64-linux-gnu/sysroot/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc;/usr/aarch64-linux-gnu/lib;/usr/aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/lib;/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Lxhudv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f60a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f60a1.dir/build.make CMakeFiles/cmTC_f60a1.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Lxhudv'
+Building CXX object CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++   -v -o CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-g++
+Target: aarch64-linux-gnu
+Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c,c++
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -iprefix /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/ -isysroot /usr/bin/../aarch64-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccNWG2pR.s
+GNU C++14 (GCC) version 10.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../include/aarch64-linux-gnu/c++/10"
+ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu/c++/10
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10/backward
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++14 (GCC) version 10.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: eb69b5d678ec92a2d1fd0c27b8e7d50a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNWG2pR.s
+GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_f60a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f60a1.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -v CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f60a1 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c,c++
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f60a1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccK9QbU6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/../aarch64-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_f60a1 /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f60a1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Lxhudv'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu/c++/10]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10/backward]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu]
+    add: [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include/c++/10]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu/c++/10] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu/c++/10]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10/backward] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include/c++/10/backward]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/include] ==> [/usr/aarch64-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed;/usr/aarch64-linux-gnu/sysroot/usr/include/c++/10;/usr/aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu/c++/10;/usr/aarch64-linux-gnu/sysroot/usr/include/c++/10/backward;/usr/aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-bullseye-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Lxhudv]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f60a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f60a1.dir/build.make CMakeFiles/cmTC_f60a1.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Lxhudv']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/aarch64-bullseye-linux-gnu-g++   -v -o CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-g++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -iprefix /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/ -isysroot /usr/bin/../aarch64-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccNWG2pR.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../include/aarch64-linux-gnu/c++/10"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/../../../../../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/include-fixed]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu/c++/10]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/c++/10/backward]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: eb69b5d678ec92a2d1fd0c27b8e7d50a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNWG2pR.s]
+  ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_f60a1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f60a1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/aarch64-bullseye-linux-gnu-g++  -v CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f60a1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/aarch64-bullseye-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /__w/opensdk/opensdk/downloads/bullseye-arm64/gcc-10.2.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --prefix=/tmp/frc --program-prefix=aarch64-bullseye-linux-gnu- --disable-werror --disable-nls --disable-multilib --libdir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/lib --with-sysroot=/tmp/frc/aarch64-linux-gnu/sysroot --with-build-sysroot=/__w/opensdk/opensdk/build/frontend/bullseye-arm64/x86_64-linux-gnu/sysroot-install/aarch64-linux-gnu/sysroot --enable-threads=posix --enable-shared --with-gcc-major-version-only --enable-linker-build-id --enable-__cxa_atexit --with-gxx-include-dir=/tmp/frc/aarch64-linux-gnu/sysroot/usr/include/c++/10 --without-zstd --enable-clocal=gnu --without-included-gettext --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-languages=c c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/:/usr/bin/../libexec/gcc/aarch64-linux-gnu/:/usr/bin/../libexec/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/lib/:/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f60a1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/bin/../libexec/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccK9QbU6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/../aarch64-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_f60a1 /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/lib -L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o /usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+    arg [/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/../libexec/gcc/aarch64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccK9QbU6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/bin/../aarch64-linux-gnu/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f60a1] ==> ignore
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib]
+    arg [-L/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib] ==> dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_f60a1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o]
+    arg [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o] ==> obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o]
+  collapse obj [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib/../lib] ==> [/usr/aarch64-linux-gnu/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib/../lib] ==> [/usr/aarch64-linux-gnu/sysroot/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/../lib] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/../../../../../../../aarch64-linux-gnu/lib] ==> [/usr/aarch64-linux-gnu/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/lib] ==> [/usr/aarch64-linux-gnu/sysroot/lib]
+  collapse library dir [/usr/bin/../aarch64-linux-gnu/sysroot/usr/lib] ==> [/usr/aarch64-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crt1.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crti.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtbegin.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10/crtend.o;/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu/10;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/usr/lib/gcc;/usr/aarch64-linux-gnu/lib;/usr/aarch64-linux-gnu/sysroot/lib/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/lib;/usr/aarch64-linux-gnu/sysroot/usr/lib/aarch64-linux-gnu;/usr/aarch64-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-zKqwPu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_245e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_245e9.dir/build.make CMakeFiles/cmTC_245e9.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-zKqwPu'
+Building CXX object CMakeFiles/cmTC_245e9.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DEIGEN_COMPILER_SUPPORT_CPP11  -std=c++11 -o CMakeFiles/cmTC_245e9.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-zKqwPu/src.cxx
+Linking CXX executable cmTC_245e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_245e9.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_245e9.dir/src.cxx.o -o cmTC_245e9 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-zKqwPu'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-anuYZG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8a6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8a6f.dir/build.make CMakeFiles/cmTC_b8a6f.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-anuYZG'
+Building CXX object CMakeFiles/cmTC_b8a6f.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_b8a6f.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-anuYZG/src.cxx
+Linking CXX executable cmTC_b8a6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a6f.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_b8a6f.dir/src.cxx.o -o cmTC_b8a6f 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-anuYZG'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4pg4lv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e75e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e75e8.dir/build.make CMakeFiles/cmTC_e75e8.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4pg4lv'
+Building CXX object CMakeFiles/cmTC_e75e8.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -Dstandard_math_library_linked_to_automatically  -std=c++03  -o CMakeFiles/cmTC_e75e8.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4pg4lv/src.cxx
+Linking CXX executable cmTC_e75e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e75e8.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03  CMakeFiles/cmTC_e75e8.dir/src.cxx.o -o cmTC_e75e8 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4pg4lv'
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-0WiEfd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe038/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe038.dir/build.make CMakeFiles/cmTC_fe038.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-0WiEfd'
+Building CXX object CMakeFiles/cmTC_fe038.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_WERROR  -std=c++03    -Werror -o CMakeFiles/cmTC_fe038.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-0WiEfd/src.cxx
+Linking CXX executable cmTC_fe038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe038.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03  CMakeFiles/cmTC_fe038.dir/src.cxx.o -o cmTC_fe038 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-0WiEfd'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-yxcMaX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3194d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3194d.dir/build.make CMakeFiles/cmTC_3194d.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-yxcMaX'
+Building CXX object CMakeFiles/cmTC_3194d.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_pedantic  -std=c++03 -Werror   -pedantic -o CMakeFiles/cmTC_3194d.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-yxcMaX/src.cxx
+Linking CXX executable cmTC_3194d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3194d.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -Werror CMakeFiles/cmTC_3194d.dir/src.cxx.o -o cmTC_3194d 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-yxcMaX'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Tpwhvc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27e50/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27e50.dir/build.make CMakeFiles/cmTC_27e50.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Tpwhvc'
+Building CXX object CMakeFiles/cmTC_27e50.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wall  -std=c++03 -pedantic -Werror   -Wall -o CMakeFiles/cmTC_27e50.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Tpwhvc/src.cxx
+Linking CXX executable cmTC_27e50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27e50.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Werror CMakeFiles/cmTC_27e50.dir/src.cxx.o -o cmTC_27e50 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Tpwhvc'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-ps6vnU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fa8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fa8e.dir/build.make CMakeFiles/cmTC_8fa8e.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-ps6vnU'
+Building CXX object CMakeFiles/cmTC_8fa8e.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wextra  -std=c++03 -pedantic -Wall -Werror   -Wextra -o CMakeFiles/cmTC_8fa8e.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-ps6vnU/src.cxx
+Linking CXX executable cmTC_8fa8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa8e.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Werror CMakeFiles/cmTC_8fa8e.dir/src.cxx.o -o cmTC_8fa8e 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-ps6vnU'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-L7lHxP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f467c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f467c.dir/build.make CMakeFiles/cmTC_f467c.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-L7lHxP'
+Building CXX object CMakeFiles/cmTC_f467c.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wundef  -std=c++03 -pedantic -Wall -Wextra -Werror   -Wundef -o CMakeFiles/cmTC_f467c.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-L7lHxP/src.cxx
+Linking CXX executable cmTC_f467c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f467c.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Werror CMakeFiles/cmTC_f467c.dir/src.cxx.o -o cmTC_f467c 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-L7lHxP'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qNz4p1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2deb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2deb.dir/build.make CMakeFiles/cmTC_b2deb.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qNz4p1'
+Building CXX object CMakeFiles/cmTC_b2deb.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wcastalign  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror   -Wcast-align -o CMakeFiles/cmTC_b2deb.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qNz4p1/src.cxx
+Linking CXX executable cmTC_b2deb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2deb.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror CMakeFiles/cmTC_b2deb.dir/src.cxx.o -o cmTC_b2deb 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qNz4p1'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-5G1rrA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5214a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5214a.dir/build.make CMakeFiles/cmTC_5214a.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-5G1rrA'
+Building CXX object CMakeFiles/cmTC_5214a.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wcharsubscripts  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror   -Wchar-subscripts -o CMakeFiles/cmTC_5214a.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-5G1rrA/src.cxx
+Linking CXX executable cmTC_5214a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5214a.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror CMakeFiles/cmTC_5214a.dir/src.cxx.o -o cmTC_5214a 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-5G1rrA'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-w2EptA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9fcb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9fcb7.dir/build.make CMakeFiles/cmTC_9fcb7.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-w2EptA'
+Building CXX object CMakeFiles/cmTC_9fcb7.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTC_9fcb7.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-w2EptA/src.cxx
+Linking CXX executable cmTC_9fcb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcb7.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror CMakeFiles/cmTC_9fcb7.dir/src.cxx.o -o cmTC_9fcb7 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-w2EptA'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-GGsiAe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9aee0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9aee0.dir/build.make CMakeFiles/cmTC_9aee0.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-GGsiAe'
+Building CXX object CMakeFiles/cmTC_9aee0.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTC_9aee0.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-GGsiAe/src.cxx
+Linking CXX executable cmTC_9aee0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aee0.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror CMakeFiles/cmTC_9aee0.dir/src.cxx.o -o cmTC_9aee0 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-GGsiAe'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-gzdOAX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4462a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4462a.dir/build.make CMakeFiles/cmTC_4462a.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-gzdOAX'
+Building CXX object CMakeFiles/cmTC_4462a.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wpointerarith  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror   -Wpointer-arith -o CMakeFiles/cmTC_4462a.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-gzdOAX/src.cxx
+Linking CXX executable cmTC_4462a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4462a.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror CMakeFiles/cmTC_4462a.dir/src.cxx.o -o cmTC_4462a 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-gzdOAX'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-flJhwl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5bb42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5bb42.dir/build.make CMakeFiles/cmTC_5bb42.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-flJhwl'
+Building CXX object CMakeFiles/cmTC_5bb42.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wwritestrings  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror   -Wwrite-strings -o CMakeFiles/cmTC_5bb42.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-flJhwl/src.cxx
+Linking CXX executable cmTC_5bb42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bb42.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror CMakeFiles/cmTC_5bb42.dir/src.cxx.o -o cmTC_5bb42 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-flJhwl'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-mzGWXc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_337b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_337b5.dir/build.make CMakeFiles/cmTC_337b5.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-mzGWXc'
+Building CXX object CMakeFiles/cmTC_337b5.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wformatsecurity  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror   -Wformat-security -o CMakeFiles/cmTC_337b5.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-mzGWXc/src.cxx
+Linking CXX executable cmTC_337b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_337b5.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror CMakeFiles/cmTC_337b5.dir/src.cxx.o -o cmTC_337b5 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-mzGWXc'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-pFIoDn
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81144/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81144.dir/build.make CMakeFiles/cmTC_81144.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-pFIoDn'
+Building CXX object CMakeFiles/cmTC_81144.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wlogical-op -o CMakeFiles/cmTC_81144.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-pFIoDn/src.cxx
+Linking CXX executable cmTC_81144
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81144.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror CMakeFiles/cmTC_81144.dir/src.cxx.o -o cmTC_81144 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-pFIoDn'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-6dgLjp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f24a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f24a.dir/build.make CMakeFiles/cmTC_2f24a.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-6dgLjp'
+Building CXX object CMakeFiles/cmTC_2f24a.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wdoublepromotion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror   -Wdouble-promotion -o CMakeFiles/cmTC_2f24a.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-6dgLjp/src.cxx
+Linking CXX executable cmTC_2f24a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f24a.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror CMakeFiles/cmTC_2f24a.dir/src.cxx.o -o cmTC_2f24a 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-6dgLjp'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-JmnT4h
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_675dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_675dd.dir/build.make CMakeFiles/cmTC_675dd.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-JmnT4h'
+Building CXX object CMakeFiles/cmTC_675dd.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wshadow  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Werror   -Wshadow -o CMakeFiles/cmTC_675dd.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-JmnT4h/src.cxx
+Linking CXX executable cmTC_675dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_675dd.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Werror CMakeFiles/cmTC_675dd.dir/src.cxx.o -o cmTC_675dd 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-JmnT4h'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-9lZOQm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd313/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd313.dir/build.make CMakeFiles/cmTC_cd313.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-9lZOQm'
+Building CXX object CMakeFiles/cmTC_cd313.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wnopsabi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Werror   -Wno-psabi -o CMakeFiles/cmTC_cd313.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-9lZOQm/src.cxx
+Linking CXX executable cmTC_cd313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd313.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Werror CMakeFiles/cmTC_cd313.dir/src.cxx.o -o cmTC_cd313 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-9lZOQm'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-U3D0M9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e380/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e380.dir/build.make CMakeFiles/cmTC_3e380.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-U3D0M9'
+Building CXX object CMakeFiles/cmTC_3e380.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Werror   -Wno-variadic-macros -o CMakeFiles/cmTC_3e380.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-U3D0M9/src.cxx
+Linking CXX executable cmTC_3e380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e380.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Werror CMakeFiles/cmTC_3e380.dir/src.cxx.o -o cmTC_3e380 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-U3D0M9'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Dqxeiw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_702a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_702a8.dir/build.make CMakeFiles/cmTC_702a8.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Dqxeiw'
+Building CXX object CMakeFiles/cmTC_702a8.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_Wnolonglong  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror   -Wno-long-long -o CMakeFiles/cmTC_702a8.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Dqxeiw/src.cxx
+Linking CXX executable cmTC_702a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702a8.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror CMakeFiles/cmTC_702a8.dir/src.cxx.o -o cmTC_702a8 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Dqxeiw'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8YwW7z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cfdc8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cfdc8.dir/build.make CMakeFiles/cmTC_cfdc8.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8YwW7z'
+Building CXX object CMakeFiles/cmTC_cfdc8.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_fnochecknew  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror   -fno-check-new -o CMakeFiles/cmTC_cfdc8.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8YwW7z/src.cxx
+Linking CXX executable cmTC_cfdc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfdc8.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror CMakeFiles/cmTC_cfdc8.dir/src.cxx.o -o cmTC_cfdc8 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8YwW7z'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qrAnA9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50fa8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50fa8.dir/build.make CMakeFiles/cmTC_50fa8.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qrAnA9'
+Building CXX object CMakeFiles/cmTC_50fa8.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_fnocommon  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror   -fno-common -o CMakeFiles/cmTC_50fa8.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qrAnA9/src.cxx
+Linking CXX executable cmTC_50fa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50fa8.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror CMakeFiles/cmTC_50fa8.dir/src.cxx.o -o cmTC_50fa8 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-qrAnA9'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-SDN2i9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2cbf1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2cbf1.dir/build.make CMakeFiles/cmTC_2cbf1.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-SDN2i9'
+Building CXX object CMakeFiles/cmTC_2cbf1.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_fstrictaliasing  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror   -fstrict-aliasing -o CMakeFiles/cmTC_2cbf1.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-SDN2i9/src.cxx
+Linking CXX executable cmTC_2cbf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbf1.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror CMakeFiles/cmTC_2cbf1.dir/src.cxx.o -o cmTC_2cbf1 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-SDN2i9'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Omd9Jw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b98c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b98c.dir/build.make CMakeFiles/cmTC_0b98c.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Omd9Jw'
+Building CXX object CMakeFiles/cmTC_0b98c.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_ansi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -ansi -o CMakeFiles/cmTC_0b98c.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Omd9Jw/src.cxx
+Linking CXX executable cmTC_0b98c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b98c.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror CMakeFiles/cmTC_0b98c.dir/src.cxx.o -o cmTC_0b98c 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-Omd9Jw'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-CtnXSP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5828b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5828b.dir/build.make CMakeFiles/cmTC_5828b.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-CtnXSP'
+Building CXX object CMakeFiles/cmTC_5828b.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi    -fopenmp -o CMakeFiles/cmTC_5828b.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-CtnXSP/src.cxx
+Linking CXX executable cmTC_5828b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5828b.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  CMakeFiles/cmTC_5828b.dir/src.cxx.o -o cmTC_5828b 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-CtnXSP'
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-jeS4Ia
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26704/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26704.dir/build.make CMakeFiles/cmTC_26704.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-jeS4Ia'
+Building C object CMakeFiles/cmTC_26704.dir/CheckFunctionExists.c.o
+/usr/bin/aarch64-bullseye-linux-gnu-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_26704.dir/CheckFunctionExists.c.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-jeS4Ia/CheckFunctionExists.c
+Linking C executable cmTC_26704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26704.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_26704.dir/CheckFunctionExists.c.o -o cmTC_26704  -lpthread 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-jeS4Ia'
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_FASTMATH succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-XPSKLr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_db171/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db171.dir/build.make CMakeFiles/cmTC_db171.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-XPSKLr'
+Building CXX object CMakeFiles/cmTC_db171.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_FASTMATH  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi    -ffast-math -o CMakeFiles/cmTC_db171.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-XPSKLr/src.cxx
+Linking CXX executable cmTC_db171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db171.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  CMakeFiles/cmTC_db171.dir/src.cxx.o -o cmTC_db171 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-XPSKLr'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4mxxKb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8763b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8763b.dir/build.make CMakeFiles/cmTC_8763b.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4mxxKb'
+Building CXX object CMakeFiles/cmTC_8763b.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_8763b.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4mxxKb/src.cxx
+Linking CXX executable cmTC_8763b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8763b.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_8763b.dir/src.cxx.o -o cmTC_8763b 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-4mxxKb'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-1k4NoW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc5e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc5e5.dir/build.make CMakeFiles/cmTC_bc5e5.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-1k4NoW'
+Building CXX object CMakeFiles/cmTC_bc5e5.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_bc5e5.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-1k4NoW/src.cxx
+Linking CXX executable cmTC_bc5e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5e5.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_bc5e5.dir/src.cxx.o -o cmTC_bc5e5 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-1k4NoW'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-bfKtRf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97b09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97b09.dir/build.make CMakeFiles/cmTC_97b09.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-bfKtRf'
+Building CXX object CMakeFiles/cmTC_97b09.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_97b09.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-bfKtRf/src.cxx
+Linking CXX executable cmTC_97b09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b09.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_97b09.dir/src.cxx.o -o cmTC_97b09 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-bfKtRf'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-P3QIak
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d070/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d070.dir/build.make CMakeFiles/cmTC_2d070.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-P3QIak'
+Building CXX object CMakeFiles/cmTC_2d070.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_2d070.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-P3QIak/src.cxx
+Linking CXX executable cmTC_2d070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d070.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_2d070.dir/src.cxx.o -o cmTC_2d070 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-P3QIak'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-k6XwGB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d01f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d01f3.dir/build.make CMakeFiles/cmTC_d01f3.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-k6XwGB'
+Building CXX object CMakeFiles/cmTC_d01f3.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_d01f3.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-k6XwGB/src.cxx
+Linking CXX executable cmTC_d01f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d01f3.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_d01f3.dir/src.cxx.o -o cmTC_d01f3 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-k6XwGB'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-vj18uN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d81d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d81d7.dir/build.make CMakeFiles/cmTC_d81d7.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-vj18uN'
+Building CXX object CMakeFiles/cmTC_d81d7.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_d81d7.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-vj18uN/src.cxx
+Linking CXX executable cmTC_d81d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81d7.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_d81d7.dir/src.cxx.o -o cmTC_d81d7 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-vj18uN'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-3aHH6o
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66b24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66b24.dir/build.make CMakeFiles/cmTC_66b24.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-3aHH6o'
+Building CXX object CMakeFiles/cmTC_66b24.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_66b24.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-3aHH6o/src.cxx
+Linking CXX executable cmTC_66b24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66b24.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_66b24.dir/src.cxx.o -o cmTC_66b24 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-3aHH6o'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8un5jp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fcb49/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fcb49.dir/build.make CMakeFiles/cmTC_fcb49.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8un5jp'
+Building CXX object CMakeFiles/cmTC_fcb49.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_fcb49.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8un5jp/src.cxx
+Linking CXX executable cmTC_fcb49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcb49.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_fcb49.dir/src.cxx.o -o cmTC_fcb49 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-8un5jp'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-YdEtl6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa545/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa545.dir/build.make CMakeFiles/cmTC_aa545.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-YdEtl6'
+Building CXX object CMakeFiles/cmTC_aa545.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_aa545.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-YdEtl6/src.cxx
+Linking CXX executable cmTC_aa545
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa545.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_aa545.dir/src.cxx.o -o cmTC_aa545 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-YdEtl6'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-2MZu91
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1aed3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1aed3.dir/build.make CMakeFiles/cmTC_1aed3.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-2MZu91'
+Building CXX object CMakeFiles/cmTC_1aed3.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_1aed3.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-2MZu91/src.cxx
+Linking CXX executable cmTC_1aed3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aed3.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_1aed3.dir/src.cxx.o -o cmTC_1aed3 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-2MZu91'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-B9y5yh
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19d13/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19d13.dir/build.make CMakeFiles/cmTC_19d13.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-B9y5yh'
+Building CXX object CMakeFiles/cmTC_19d13.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_19d13.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-B9y5yh/src.cxx
+Linking CXX executable cmTC_19d13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d13.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_19d13.dir/src.cxx.o -o cmTC_19d13 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-B9y5yh'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-VBnvZP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88b23/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88b23.dir/build.make CMakeFiles/cmTC_88b23.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-VBnvZP'
+Building CXX object CMakeFiles/cmTC_88b23.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_88b23.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-VBnvZP/src.cxx
+Linking CXX executable cmTC_88b23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b23.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_88b23.dir/src.cxx.o -o cmTC_88b23 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-VBnvZP'
+
+
+Source file was:
+int main() { return 0; }
+
