@@ -1095,3 +1095,19 @@ gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-s
 Source file was:
 int main() { return 0; }
 
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-T9ca5q
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ff0f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ff0f.dir/build.make CMakeFiles/cmTC_7ff0f.dir/build
+gmake[1]: Entering directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-T9ca5q'
+Building CXX object CMakeFiles/cmTC_7ff0f.dir/src.cxx.o
+/usr/bin/aarch64-bullseye-linux-gnu-g++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_7ff0f.dir/src.cxx.o -c /home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-T9ca5q/src.cxx
+Linking CXX executable cmTC_7ff0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ff0f.dir/link.txt --verbose=1
+/usr/bin/aarch64-bullseye-linux-gnu-g++ CMakeFiles/cmTC_7ff0f.dir/src.cxx.o -o cmTC_7ff0f 
+gmake[1]: Leaving directory '/home/bardy/Documents/code/robotics/2024-frc-with-samvs/build/CMakeFiles/CMakeScratch/TryCompile-T9ca5q'
+
+
+Source file was:
+int main() { return 0; }
+
