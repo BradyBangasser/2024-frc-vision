@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bardy/Documents/code/robotics/2024-frc-with-samvs/include/simpleNN/eigen/test/conservative_resize.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "conservative_resize_4"
+	}
+}

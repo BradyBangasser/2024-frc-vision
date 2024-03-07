@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bardy/Documents/code/robotics/2024-frc-with-samvs/include/simpleNN/eigen/test/conjugate_gradient.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "conjugate_gradient_3"
+	}
+}

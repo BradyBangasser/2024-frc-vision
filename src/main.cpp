@@ -43,6 +43,9 @@ int main() {
     vs2::VisionServer::Init();
 
     nt::NetworkTableInstance::GetDefault().StartClient4("VisionServer");
+    nt::NetworkTableInstance::GetDefault().SetServer(std::array<std::pair<std::string_view, unsigned int>, 1>({
+        { "10.34.7.70", 0U }
+    }));
 
     for (int i = 0; i < cameras.size(); i++) {
         // std::cout << cameras[i].getJson().at("") << " this" << std::endl;
@@ -52,7 +55,9 @@ int main() {
 
     vs2::VisionServer::addStreams(2);
 
-    BPipe bp("bv2024", cameras[0]);
+    vs2::VisionServer::addCameras(std::move(cameras));
+
+    BPipe bp("bv2024");
     // BPipe bp0("bv2025", cameras[1]);
 
     auto &inst = vs2::VisionServer::getInstance();
@@ -61,7 +66,7 @@ int main() {
 
     // std::cout << vs2::VisionServer::numStreams() << " this" << std::endl;
 
-    inst.addCameraPipe("Hello", &bp, std::move(cameras[0]), 0);
+    inst.addCameraPipe("Hello", &bp, 0, 0);
     // inst.addCameraPipe("Hello1", &bp0, std::move(cameras[1]), 1);
 
 

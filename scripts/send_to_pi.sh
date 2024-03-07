@@ -1,17 +1,17 @@
-# !/usr/bin/env sh
+#!/bin/bash
 
-ip="10.34.7.69"
+source ./scripts/variables.sh
 
 if make; then 
-    if ! sshpass -p raspberry scp -O ./server pi@$ip:~/server_tmp; then 
+    if ! sshpass -p raspberry scp -O ./server pi@$PI_IP:~/server_tmp; then 
         # attempt to remount fs in rw mode
-        sshpass -p raspberry ssh pi@$ip < server_remount &
+        sshpass -p raspberry ssh pi@$PI_IP < ./scripts/server_remount.sh &
         sleep 1
 
-        if ! sshpass -p raspberry scp -O ./server pi@$ip:~/server_tmp; then 
+        if ! sshpass -p raspberry scp -O ./server pi@$PI_IP:~/server_tmp; then 
             echo "failed"
             exit
         fi
     fi
-    sshpass -p raspberry ssh pi@$ip < server_ssh
+    sshpass -p raspberry ssh pi@$PI_IP < ./scripts/server_ssh.sh
 fi

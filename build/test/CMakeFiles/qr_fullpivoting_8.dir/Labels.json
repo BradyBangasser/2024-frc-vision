@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bardy/Documents/code/robotics/2024-frc-with-samvs/include/simpleNN/eigen/test/qr_fullpivoting.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "qr_fullpivoting_8"
+	}
+}

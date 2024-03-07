@@ -6,7 +6,7 @@
 
 bool CalibPipe::calibPipeCreated = false;
 
-CalibPipe::CalibPipe(): vs2::VPipeline<CalibPipe>("calib") {
+CalibPipe::CalibPipe() : vs2::VPipeline<CalibPipe>("calib") {
     this->calibPipeCreated = true;
 }
 

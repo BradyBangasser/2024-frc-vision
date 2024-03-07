@@ -63,7 +63,7 @@ class BPipe: public vs2::VPipeline<BPipe> {
         } tagPos;
 
     public: 
-        BPipe(std::string name, VisionCamera &camera, cv::aruco::PREDEFINED_DICTIONARY_NAME dict = cv::aruco::DICT_APRILTAG_36h11, cv::Ptr<cv::aruco::DetectorParameters> = cv::aruco::DetectorParameters::create());
+        BPipe(std::string name, cv::aruco::PREDEFINED_DICTIONARY_NAME dict = cv::aruco::DICT_APRILTAG_36h11, cv::Ptr<cv::aruco::DetectorParameters> = cv::aruco::DetectorParameters::create());
         ~BPipe();
         void process(cv::Mat &frame);
 };

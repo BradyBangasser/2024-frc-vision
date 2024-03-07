@@ -91,9 +91,9 @@ public:
 	static size_t numCameras();
 
 	// Bradys little helpful function? 
-	static inline bool addCameraPipe(std::string name, BasePipe *pipeline, VisionCamera &&cam, size_t streamIndex) {
+	static inline bool addCameraPipe(std::string name, BasePipe *pipeline, size_t camIdx, size_t streamIndex) {
 		VisionServer &inst = vs2::VisionServer::inst();
-		pipeline->setCamera(cam);
+		pipeline->setCamera(inst.cameras[camIdx]);
 		inst.addPipeline(pipeline);
 
 		inst.streams.at(streamIndex).setPipelineIdx(inst.numPipelines());

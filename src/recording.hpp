@@ -5,7 +5,12 @@
 #include <opencv2/core.hpp>
 
 class Recording : public vs2::VisionPipeline<Recording> {
+    private:
+        std::shared_ptr<cv::VideoWriter> writer;
+           
     public:
+        Recording(std::string name);
+        ~Recording();
         void process(cv::Mat &frame);
 }
 

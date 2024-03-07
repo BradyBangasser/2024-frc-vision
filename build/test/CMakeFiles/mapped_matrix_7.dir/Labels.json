@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bardy/Documents/code/robotics/2024-frc-with-samvs/include/simpleNN/eigen/test/mapped_matrix.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "mapped_matrix_7"
+	}
+}

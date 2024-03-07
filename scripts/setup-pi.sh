@@ -1,6 +1,6 @@
 # !/usr/bin/env sh
 
-piip="10.34.7.69"
+piip="10.34.7.31"
 
 sshpass -p raspberry ssh pi@$piip < server_remount &
 sleep 2
