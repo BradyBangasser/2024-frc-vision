@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 #include <vector>
 
@@ -6,9 +8,6 @@
 #include <opencv2/core.hpp>
 #include <opencv2/aruco.hpp>
 #include <networktables/NetworkTable.h>
-
-#ifndef BPIPE_HPP
-#define BPIPE_HPP
 
 #define TAG_REFINEMENT
 #define PNP_REFINEMENT
@@ -22,23 +21,22 @@
 
 /**
  * @brief 
- * 
+ * @todo Make this average 2 frames or make another pipeline for that
  */
 class BPipe: public vs2::VPipeline<BPipe> {
     private:
         std::string name;
         cv::Ptr<cv::aruco::Dictionary> dict;
-        NT_Inst ntInst;
-        NT_Entry ntDistance;
+        std::shared_ptr<nt::NetworkTable> ntInst;
 
         struct {
-            NT_Entry x;
-            NT_Entry y;
-            NT_Entry z;
-            NT_Entry rx;
-            NT_Entry ry;
-            NT_Entry rz;
-            NT_Entry ids;
+            nt::NetworkTableEntry x;
+            nt::NetworkTableEntry y;
+            nt::NetworkTableEntry z;
+            nt::NetworkTableEntry rx;
+            nt::NetworkTableEntry ry;
+            nt::NetworkTableEntry rz;
+            nt::NetworkTableEntry ids;
         } tables;
 
         cv::Ptr<cv::aruco::DetectorParameters> dictParams;
@@ -49,7 +47,6 @@ class BPipe: public vs2::VPipeline<BPipe> {
         #endif
 
         std::vector<int> ids;
-        cv::VideoWriter video;
         
         struct {
             std::vector<double> x;
@@ -67,5 +64,3 @@ class BPipe: public vs2::VPipeline<BPipe> {
         ~BPipe();
         void process(cv::Mat &frame);
 };
-
-#endif

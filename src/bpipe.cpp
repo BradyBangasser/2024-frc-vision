@@ -4,6 +4,7 @@
 #include <string>
 #include <chrono>
 #include <array>
+#include <math.h>
 
 #include <visionserver2.h>
 #include <opencv2/aruco/dictionary.hpp>
@@ -15,38 +16,26 @@ BPipe::BPipe(std::string name, cv::aruco::PREDEFINED_DICTIONARY_NAME dict, cv::P
     this->name = name;
     this->dict = cv::aruco::getPredefinedDictionary(dict);
     this->dictParams = params;
-    // this->ntInst = nt::GetDefaultInstance();
-    auto ntt = this->ntable()->GetEntry("Hello");
-    ntt.SetBoolean(true);
+    this->ntInst = this->ntable();
 
-
-    // std::array<std::pair<std::string_view, uint>, 3> servers({
-        // { "10.34.7.70", 0U },
-        // { "10.34.7.2", 0U },
-        // { "10.34.7.29", 0U }
-    // });
-
-    this->EnumerateSinks();
-
-
-    // this->tables.ids = nt::GetEntry(ntInst, "/bv2024/ids");
-    // this->tables.x = nt::GetEntry(ntInst, "/bv2024/x");
-    // this->tables.y = nt::GetEntry(ntInst, "/bv2024/y");
-    // this->tables.z = nt::GetEntry(ntInst, "/bv2024/z");
-    // this->tables.rx = nt::GetEntry(ntInst, "/bv2024/rx");
-    // this->tables.ry = nt::GetEntry(ntInst, "/bv2024/ry");
-    // this->tables.rz = nt::GetEntry(ntInst, "/bv2024/rz");
-
-    // this->video = cv::VideoWriter("test.avi", cv::VideoWriter::fourcc('m', 'j', 'g', 'p'), 60, cv::Size(680, 480));
-
-    // nt::SetServer(ntInst, servers);
-    // nt::SetServerTeam(this->ntInst, 3407, NT_DEFAULT_PORT4);
-    // nt::StartDSClient(ntInst, NT_DEFAULT_PORT4);
+    this->tables.x = this->ntInst->GetEntry("bv2024/x");
+    this->tables.y = this->ntInst->GetEntry("bv2024/y");
+    this->tables.z = this->ntInst->GetEntry("bv2024/z");
+    this->tables.rx = this->ntInst->GetEntry("bv2024/rx");
+    this->tables.ry = this->ntInst->GetEntry("bv2024/ry");
+    this->tables.rz = this->ntInst->GetEntry("bv2024/rz");
+    this->tables.ids = this->ntInst->GetEntry("bv2024/ids");
 }
 
 BPipe::~BPipe() {
-    nt::DestroyInstance(this->ntInst);
 }
+
+inline double degreeConversion(double rotations) {
+    // Just in case we wanna convert to degrees
+    return rotations;//  * (180 / CV_PI);
+}
+
+inline double decideRy(double ry0, double ry1, std::vector<cv::Point2f> corners) { return ((abs(corners[1].y - corners[2].y) < abs(corners[0].y - corners[3].y)) ? std::max(ry0, ry1) : std::min(ry0, ry1)); }
 
 void BPipe::process(cv::Mat &frame) {
     tagPos.z.clear();
@@ -68,6 +57,7 @@ void BPipe::process(cv::Mat &frame) {
 
     #if defined(CALC_CENTER) || defined(V2024_DETECT_POSE) || defined(DRAW_DETECTED)
         if (numberOfDetections > 0) {
+            decideRy(0, 0, corners.at(i));
             for (i = 0; i < numberOfDetections; i++) {
                 #ifdef CALC_CENTER
                     double xsum = 0, ysum = 0;
@@ -90,7 +80,7 @@ void BPipe::process(cv::Mat &frame) {
 
                     if (rvecs.size() == 2 && tvecs[0][0]) {
                         #ifdef PNP_REFINEMENT
-                        // Not Tested
+                            // This was giving me a pointer error inside opencv, probably worth further debugging and research 
                             // cv::solvePnPRefineLM(::TAG_POINTS, corners.at(i), this->getSrcMatrix(), this->getSrcDistort(), rvecs, tvecs);
                         #endif
 
@@ -104,12 +94,13 @@ void BPipe::process(cv::Mat &frame) {
                         tagPos.z.push_back(distance);
                         tagPos.x.push_back(x);
                         tagPos.y.push_back(y);
+
                         // roll 
-                        tagPos.rx.push_back(rvecs[0][0]);
+                        tagPos.rx.push_back(degreeConversion((abs(rvecs[0][0]) > abs(rvecs[1][0])) ? rvecs[0][0] : rvecs[1][0]));
                         // yaw
-                        tagPos.ry.push_back(rvecs[0][1]);
-                        // roll
-                        tagPos.rz.push_back(rvecs[0][2]);
+                        tagPos.ry.push_back(degreeConversion(decideRy(rvecs[0][1], rvecs[1][1], corners.at(i))));
+                        // pitch
+                        tagPos.rz.push_back(degreeConversion(std::max(rvecs[0][2], rvecs[1][2])));
                         tagPos.id.push_back(ids[i]);
 
                         #ifdef DRAW_DETECTED
@@ -129,14 +120,13 @@ void BPipe::process(cv::Mat &frame) {
         }
     #endif
 
-
-    // nt::SetDoubleArray(tables.z, tagPos.z);
-    // nt::SetDoubleArray(tables.y, tagPos.y);
-    // nt::SetDoubleArray(tables.x, tagPos.x);
-    // nt::SetDoubleArray(tables.rx, tagPos.rx);
-    // nt::SetDoubleArray(tables.ry, tagPos.ry);
-    // nt::SetDoubleArray(tables.rz, tagPos.rz);
-    // nt::SetIntegerArray(tables.ids, tagPos.id);
+    this->tables.ids.SetIntegerArray(tagPos.id);
+    this->tables.x.SetDoubleArray(this->tagPos.x);
+    this->tables.y.SetDoubleArray(this->tagPos.y);
+    this->tables.z.SetDoubleArray(this->tagPos.z);
+    this->tables.rx.SetDoubleArray(this->tagPos.rx);
+    this->tables.ry.SetDoubleArray(this->tagPos.ry);
+    this->tables.rz.SetDoubleArray(this->tagPos.rz);
     #ifdef TIMESTAMP
         cv::putText(frame, std::to_string(std::chrono::high_resolution_clock::now().time_since_epoch().count()), cv::Point(0, 10), cv::FONT_HERSHEY_DUPLEX, .3, cv::Scalar(0, 255, 0));
     #endif

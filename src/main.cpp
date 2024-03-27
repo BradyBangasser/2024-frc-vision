@@ -13,8 +13,10 @@
 #include "bpipe.hpp"
 #include "calibration.hpp"
 #include <wpi/raw_istream.h>
+#include <stdint.h>
+#include "cascade.hpp"
 
-int loadCameras(std::vector<VisionCamera> &cameras) {
+uint8_t loadCameras(std::vector<VisionCamera> &cameras) {
     wpi::json json;
     std::error_code ec;
     wpi::raw_fd_istream is("/boot/frc.json", ec);
@@ -24,54 +26,47 @@ int loadCameras(std::vector<VisionCamera> &cameras) {
     std::vector<wpi::json> camJson = json.at("cameras");
 
     for (wpi::json c : camJson) {
-        // VisionCamera cam(c);
         cameras.emplace_back(c);
     }
 
-    return -1;
+    return 0;
 }
 
 int main() {
 
     std::vector<VisionCamera> cameras{};
 
-    loadCameras(cameras);
+    // Make this more graceful
+    if (loadCameras(cameras)) {
+        std::cout << "Failed to load cameras\n";
+        exit(5);
+    };
+    if (!loadJSONCalibrations(cameras)) {
+        std::cout << "Failed to load camera calibration\n";
+        exit(5);
+    };
 
-    // if (!readConfig(cameras)) return -1;
-
-    std::cout << loadJSONCalibrations(cameras) << std::endl;
     vs2::VisionServer::Init();
 
     nt::NetworkTableInstance::GetDefault().StartClient4("VisionServer");
-    nt::NetworkTableInstance::GetDefault().SetServer(std::array<std::pair<std::string_view, unsigned int>, 1>({
-        { "10.34.7.70", 0U }
+    nt::NetworkTableInstance::GetDefault().SetServer(std::array<std::pair<std::string_view, unsigned int>, 3>({
+        { "10.34.7.2", 0U },
+        { "10.34.7.70", 0U },
+        { "10.34.7.1", 0U },
     }));
-
-    for (int i = 0; i < cameras.size(); i++) {
-        // std::cout << cameras[i].getJson().at("") << " this" << std::endl;
-    }
-
-    // vs2::VisionServer::addCameras(std::move(cameras));
 
     vs2::VisionServer::addStreams(2);
 
     vs2::VisionServer::addCameras(std::move(cameras));
 
     BPipe bp("bv2024");
-    // BPipe bp0("bv2025", cameras[1]);
+    CascadePipeline cp("test");
 
-    auto &inst = vs2::VisionServer::getInstance();
+    vs2::VisionServer &inst = vs2::VisionServer::getInstance();
 
-    // vs2::VisionServer::addPipelines({ &bp, &bp0 });
+    inst.addCameraPipe("apriltagDetection", &bp, 0, 0);
+    inst.addCameraPipe("cascadePipeline", &cp, 0, 1);
 
-    // std::cout << vs2::VisionServer::numStreams() << " this" << std::endl;
-
-    inst.addCameraPipe("Hello", &bp, 0, 0);
-    // inst.addCameraPipe("Hello1", &bp0, std::move(cameras[1]), 1);
-
-
-
-    // vs2::VisionServer::compensate();
     vs2::VisionServer::run(60);
 
     std::cout << ("Not running\n") << std::endl;

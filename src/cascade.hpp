@@ -1,5 +1,4 @@
-#ifndef HUMANS_HPP
-#define HUMANS_HPP
+#pragma once
 
 #include <visionserver2.h>
 #include <opencv2/core.hpp>
@@ -9,16 +8,16 @@
 #include <string>
 #include <vector>
 
-class HumanDetectionPipeline : public vs2::VPipeline<HumanDetectionPipeline> {
+class CascadePipeline : public vs2::VPipeline<CascadePipeline> {
     private:
-        std::vector<cv::Rect> humans;
+        std::vector<cv::Rect> detections;
         cv::CascadeClassifier cascade;
         static inline constexpr double scale = .75f;
+        static inline constexpr double _scale = 1.f / scale;
+        cv::Mat grayImg, scaledImg;
 
     public:
-        HumanDetectionPipeline(std::string name);
-        ~HumanDetectionPipeline();
+        CascadePipeline(std::string name);
+        ~CascadePipeline();
         void process(cv::Mat &frame);
 };
-
-#endif
