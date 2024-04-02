@@ -15,6 +15,7 @@
 #include <wpi/raw_istream.h>
 #include <stdint.h>
 #include "cascade.hpp"
+#include "qrcode.hpp"
 
 uint8_t loadCameras(std::vector<VisionCamera> &cameras) {
     wpi::json json;
@@ -59,13 +60,17 @@ int main() {
 
     vs2::VisionServer::addCameras(std::move(cameras));
 
-    BPipe bp("bv2024");
-    CascadePipeline cp("test");
+    BPipe aprilTagDetectionPipeline("bv2024", .19453977264788191);
+    BPipe driverCameraPipeline("driverCam");
+    QRCodePipeline qrDetectionPipeline("qr");
+    // CascadePipeline cp("test");
 
     vs2::VisionServer &inst = vs2::VisionServer::getInstance();
 
-    inst.addCameraPipe("apriltagDetection", &bp, 0, 0);
-    inst.addCameraPipe("cascadePipeline", &cp, 0, 1);
+    inst.addCameraPipe("aprilTagDetection0", &aprilTagDetectionPipeline, 0, 0);
+    inst.addCameraPipe("qrDetection0", &qrDetectionPipeline, 0, 0);
+    if (inst.numCameras() > 1) inst.addCameraPipe("aprilTagDetection1", &driverCameraPipeline, 0, 1);
+    // inst.addCameraPipe("cascadePipeline", &cp, 0, 1);
 
     vs2::VisionServer::run(60);
 

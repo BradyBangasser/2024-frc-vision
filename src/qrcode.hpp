@@ -6,17 +6,22 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/objdetect.hpp>
 #include <opencv2/imgproc.hpp>
+#include <networktables/NetworkTableEntry.h>
 #include <vector>
 #include <string>
 
 class QRCodePipeline : public vs2::VPipeline<QRCodePipeline> {
     private:
+        bool enabled = true;
+        size_t count;
         std::string data;
+        std::string *accepts;
         std::vector<cv::Point2d> points;
         std::vector<cv::Point2d> straightCode;
-        size_t count;
+        cv::QRCodeDetector detector;
+        nt::NetworkTableEntry ntEntry;
     public:
-        QRCodePipeline(std::string name);
+        QRCodePipeline(std::string name, std::string accepts[] = NULL);
         ~QRCodePipeline() {}
         void process(cv::Mat &frame);
 };

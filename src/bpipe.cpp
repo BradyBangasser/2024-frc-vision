@@ -12,27 +12,32 @@
 
 #define V2024_DETECT_POSE
 
-BPipe::BPipe(std::string name, cv::aruco::PREDEFINED_DICTIONARY_NAME dict, cv::Ptr<cv::aruco::DetectorParameters> params) : vs2::VPipeline<BPipe>(name) {
+BPipe::BPipe(std::string name, double focalLength, cv::aruco::PREDEFINED_DICTIONARY_NAME dict, cv::Ptr<cv::aruco::DetectorParameters> params) : vs2::VPipeline<BPipe>(name) {
     this->name = name;
     this->dict = cv::aruco::getPredefinedDictionary(dict);
     this->dictParams = params;
     this->ntInst = this->ntable();
 
-    this->tables.x = this->ntInst->GetEntry("bv2024/x");
-    this->tables.y = this->ntInst->GetEntry("bv2024/y");
-    this->tables.z = this->ntInst->GetEntry("bv2024/z");
-    this->tables.rx = this->ntInst->GetEntry("bv2024/rx");
-    this->tables.ry = this->ntInst->GetEntry("bv2024/ry");
-    this->tables.rz = this->ntInst->GetEntry("bv2024/rz");
-    this->tables.ids = this->ntInst->GetEntry("bv2024/ids");
+    this->tables.x = this->ntInst->GetEntry(name + "/x");
+    this->tables.y = this->ntInst->GetEntry(name + "/y");
+    this->tables.z = this->ntInst->GetEntry(name + "/z");
+    this->tables.rx = this->ntInst->GetEntry(name + "/rx");
+    this->tables.ry = this->ntInst->GetEntry(name + "/ry");
+    this->tables.rz = this->ntInst->GetEntry(name + "/rz");
+    this->tables.ids = this->ntInst->GetEntry(name + "/ids");
 }
 
 BPipe::~BPipe() {
 }
 
-inline double degreeConversion(double rotations) {
-    // Just in case we wanna convert to degrees
-    return rotations;//  * (180 / CV_PI);
+/**
+ * @brief This function can be used to make unit conversions/correction on the rotations that the vision system obtains
+ * 
+ * @param x The number to convert
+ * @return new Value
+ */
+inline double degreeConversion(double x) {
+    return x;
 }
 
 inline double decideRy(double ry0, double ry1, std::vector<cv::Point2f> corners) { return ((abs(corners[1].y - corners[2].y) < abs(corners[0].y - corners[3].y)) ? std::max(ry0, ry1) : std::min(ry0, ry1)); }
@@ -84,8 +89,9 @@ void BPipe::process(cv::Mat &frame) {
                             // cv::solvePnPRefineLM(::TAG_POINTS, corners.at(i), this->getSrcMatrix(), this->getSrcDistort(), rvecs, tvecs);
                         #endif
 
-                        // Distance, seems to be fairly accurate with the correct distance calculations 
-                        distance = tvecs[0][2] / DISTANCE_CORRECTION;
+                        // This is not done yet
+                        distance = (.1651 * this->getSrcMatrix()[1][1]) / tvecs[0][2];
+                        std::cout << tvecs[0][2] << " " << tvecs[1][2] << "\n";
 
                         // This should be improved to check which solution is better
                         x = tvecs[0][1];

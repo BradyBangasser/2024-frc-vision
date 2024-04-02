@@ -15,11 +15,6 @@
 #define DRAW_DETECTED
 
 /**
- * @brief The distance will be divided from the calculated distance
- */
-#define DISTANCE_CORRECTION 1
-
-/**
  * @brief 
  * @todo Make this average 2 frames or make another pipeline for that
  */
@@ -28,6 +23,7 @@ class BPipe: public vs2::VPipeline<BPipe> {
         std::string name;
         cv::Ptr<cv::aruco::Dictionary> dict;
         std::shared_ptr<nt::NetworkTable> ntInst;
+        double distanceCorrection;
 
         struct {
             nt::NetworkTableEntry x;
@@ -60,7 +56,7 @@ class BPipe: public vs2::VPipeline<BPipe> {
         } tagPos;
 
     public: 
-        BPipe(std::string name, cv::aruco::PREDEFINED_DICTIONARY_NAME dict = cv::aruco::DICT_APRILTAG_36h11, cv::Ptr<cv::aruco::DetectorParameters> = cv::aruco::DetectorParameters::create());
+        BPipe(std::string name, double distanceCorrection = 1, cv::aruco::PREDEFINED_DICTIONARY_NAME dict = cv::aruco::DICT_APRILTAG_36h11, cv::Ptr<cv::aruco::DetectorParameters> = cv::aruco::DetectorParameters::create());
         ~BPipe();
         void process(cv::Mat &frame);
 };
