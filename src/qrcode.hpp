@@ -9,17 +9,19 @@
 #include <networktables/NetworkTableEntry.h>
 #include <vector>
 #include <string>
+#include <zbar.h>
 
 class QRCodePipeline : public vs2::VPipeline<QRCodePipeline> {
     private:
         bool enabled = true;
-        size_t count;
-        std::string data;
+        // size_t count;
+        // std::string data;
         std::string *accepts;
-        std::vector<cv::Point2d> points;
-        std::vector<cv::Point2d> straightCode;
-        cv::QRCodeDetector detector;
+        // std::vector<cv::Point2d> points;
+        // std::vector<cv::Point2d> straightCode;
+        // cv::QRCodeDetector detector;
         nt::NetworkTableEntry ntEntry;
+        // zbar::ImageScanner scanner;
     public:
         QRCodePipeline(std::string name, std::string accepts[] = NULL);
         ~QRCodePipeline() {}

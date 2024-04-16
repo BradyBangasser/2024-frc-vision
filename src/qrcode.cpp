@@ -8,6 +8,7 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/objdetect.hpp>
 #include <networktables/NetworkTable.h>
+#include <zbar.h>
 
 
 QRCodePipeline::QRCodePipeline(std::string name, std::string accepts[]) : vs2::VPipeline<QRCodePipeline>(name) {
@@ -16,25 +17,29 @@ QRCodePipeline::QRCodePipeline(std::string name, std::string accepts[]) : vs2::V
 }
 
 void QRCodePipeline::process(cv::Mat &frame) {
-    if (!enabled) return;
-    std::string tagData = this->detector.detectAndDecode(frame);
-    std::cout << this->GetActualFPS() << "\n";
+    // if (!enabled) return;
 
-    if (tagData != "" && data == tagData) {
-        count++;
+    // std::string thisTagData;
 
-        if (count >= 180) {
-            std::string hexData = data.substr(5);
-            std::string dataBuilder;
-            for (size_t i = 0; i < hexData.size(); i += 2) {
-                dataBuilder.push_back((char) std::stoi(hexData.substr(i, i + 2), nullptr, 16));
-            }
+    // cv::cvtColor(frame, frame, cv::COLOR_BGR2GRAY);
+    // zbar::Image zbarImg = zbar::Image(frame.cols, frame.rows, "Y800", frame.data, frame.cols * frame.rows);
+    
+    
+    // if (thisTagData != "" && data == data) {
+    //     count++;
 
-            this->ntEntry.SetString(dataBuilder.substr(0, dataBuilder.find(':')));
-            this->enabled = false;
-        }
-    } else {
-        count = 0; 
-        if (tagData.starts_with("3407a")) data = tagData;
-    }
+    //     if (count >= 180) {
+    //         std::string hexData = data.substr(6);
+    //         std::string dataBuilder;
+    //         for (size_t i = 0; i < hexData.size(); i += 2) {
+    //             dataBuilder.push_back((char) std::stoi(hexData.substr(i, i + 2), nullptr, 16));
+    //         }
+
+    //         this->ntEntry.SetString(dataBuilder.substr(0, dataBuilder.find(':')));
+    //         this->enabled = false;
+    //     }
+    // } else {
+    //     count = 0; 
+    //     if (thisTagData.starts_with("3407a:")) data = thisTagData;
+    // }
 }

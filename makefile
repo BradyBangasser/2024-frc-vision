@@ -4,7 +4,7 @@ CXX := g++
 STD := c++20
 
 C_FLAGS := -Wall -I include -O3
-LD_FLAGS := -O3 -pthread -Llib -Wl,--unresolved-symbols=ignore-in-shared-libs -Llib -lwpilibc -lwpiHal -lapriltag -lcameraserver -lntcore -lcscore -lopencv_gapi -lopencv_highgui -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_video -lopencv_dnn -lopencv_videoio -lopencv_imgcodecs -lopencv_aruco -lopencv_calib3d -lopencv_features2d -lopencv_imgproc -lopencv_flann -lopencv_core -lwpimath -lwpinet -lwpiutil -latomic -L share -lvs3407 -ltensorflowlite
+LD_FLAGS := -O3 -pthread -Llib -Wl,--unresolved-symbols=ignore-in-shared-libs -Llib -lwpilibc -lwpiHal -lapriltag -lcameraserver -lntcore -lcscore -lopencv_gapi -lopencv_highgui -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_video -lopencv_dnn -lopencv_videoio -lopencv_imgcodecs -lopencv_aruco -lopencv_calib3d -lopencv_features2d -lopencv_imgproc -lopencv_flann -lopencv_core -lwpimath -lwpinet -lwpiutil -latomic -L share -lvs3407 -ltensorflowlite -lzbar
 
 SRC := src
 OUT := out

@@ -6,7 +6,8 @@
     "cSpell.words": [
         "rvecs",
         "xsum",
-        "ysum"
+        "ysum",
+        "zbar"
     ],
     "files.watcherExclude": {
         "**/target": true

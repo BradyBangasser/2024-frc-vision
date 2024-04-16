@@ -62,15 +62,13 @@ int main() {
 
     BPipe aprilTagDetectionPipeline("bv2024", .19453977264788191);
     BPipe driverCameraPipeline("driverCam");
-    QRCodePipeline qrDetectionPipeline("qr");
+    // QRCodePipeline qrDetectionPipeline("qr");
     // CascadePipeline cp("test");
 
     vs2::VisionServer &inst = vs2::VisionServer::getInstance();
 
-    inst.addCameraPipe("aprilTagDetection0", &aprilTagDetectionPipeline, 0, 0);
-    inst.addCameraPipe("qrDetection0", &qrDetectionPipeline, 0, 0);
-    if (inst.numCameras() > 1) inst.addCameraPipe("aprilTagDetection1", &driverCameraPipeline, 0, 1);
-    // inst.addCameraPipe("cascadePipeline", &cp, 0, 1);
+    inst.addCameraPipe("p0", &aprilTagDetectionPipeline, 0, 0);
+    inst.addCameraPipe("p1", &driverCameraPipeline, 1, 1);
 
     vs2::VisionServer::run(60);
 

@@ -18,7 +18,7 @@ def main():
         imgSrc = -1
 
     IMG_PATH = "calibration-imgs"
-    MIN_NUMBER_OF_IMGS = 30
+    MIN_NUMBER_OF_IMGS = 90
     NUMBER_OF_CAMERAS_TO_TRY = 5
     C_DIR = os.getcwd()
     BOARD_HEIGHT = 8
@@ -107,21 +107,15 @@ def main():
 
         boardCorners, boardIds, markerCorners, markerIds = detector.detectBoard(gimg)
 
-        cv2.drawChessboardCorners(cvimg, (8, 11), boardCorners, True)
-
-        # cv2.imshow("Image", cvimg)
-
-        # time.sleep(1)
-
-        # cv2.destroyAllWindows()
-
-        # print(boardCorners, boardIds, markerIds, markerCorners)
+        print(f"Processing: {img}")
 
         if type(markerIds) != NoneType and len(markerIds) > 0:
             charucoCorners.append(boardCorners)
             charucoIds.append(boardIds)
 
+    print("Calibrating")
     ret, matrix, dist, rvecs, tvecs = cv2.aruco.calibrateCameraCharuco(charucoCorners, charucoIds, board, size, None, None)
+    print("Done")
 
     os.chdir(C_DIR)
 

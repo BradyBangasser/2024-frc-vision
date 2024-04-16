@@ -12,7 +12,7 @@
 #define TAG_REFINEMENT
 #define PNP_REFINEMENT
 #define CALC_CENTER
-#define DRAW_DETECTED
+// #define DRAW_DETECTED
 
 /**
  * @brief 
